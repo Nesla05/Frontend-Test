@@ -1,0 +1,113 @@
+.Container {
+  margin-left: 60px;
+  width: 198vh;
+}
+.First-Table {
+  width: 100%;
+  box-shadow: 0px 7px 12px -4px rgba(0, 0, 0, 0.1);
+}
+.Geo-Table-Head {
+  background-color: rgb(221, 231, 244);
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Geo-Table-Head th,
+.Geo-Table-Head td {
+  padding: 10px 25px;
+  font-size: smaller;
+  text-align: left;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Geo-Table-Body {
+  width: 100%;
+}
+
+.Geo-Table-Body th,
+.Geo-Table-Body td {
+  padding: 10px 28px;
+  font-size: smaller;
+  text-align: left;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Details {
+  display: flex;
+}
+.right-side {
+  display: flex;
+  position: absolute;
+  right: 0px;
+
+  padding-right: 50px;
+}
+.Up{
+    margin-left: 15px;
+    display: flex;
+    align-items: center; /* Center icon within the button */
+    justify-content: center;
+}
+.Delete,
+.Dowload,
+.Add {
+  margin-left: 15px;
+  background-color: rgb(242, 248, 248);
+  padding: 4px 6px; /* Adjust padding for uniform look */
+  border: 1px solid rgb(211, 199, 199);
+  border-radius: 5px;
+  border-style: groove;
+  display: flex;
+  align-items: center; /* Center icon within the button */
+  justify-content: center; /* Center icon horizontally */
+}
+
+.Search {
+  display: flex;
+  border: 1px solid rgb(211, 199, 199);
+  border-style: groove;
+  border-radius: 5px;
+}
+
+.Search1 {
+  background-color: rgb(242, 248, 248);
+  padding: 4px 6px; /* Adjust padding for uniform look */
+  display: flex;
+  align-items: center; /* Center icon within the button */
+  justify-content: center;
+}
+
+.Input {
+  border: 1px solid rgb(211, 199, 199);
+}
+.Edit-Delete {
+  display: flex;
+  
+}
+
+.Trash {
+  color: aliceblue;
+  margin-left: 10px;
+  background-color: rgb(115, 165, 230);
+  padding: 4px 6px; /* Adjust padding for uniform look */
+  border: 1px solid rgb(115, 165, 230);
+  padding: 7px;
+  display: flex;
+  align-items: center; /* Center icon within the button */
+  justify-content: center;
+}
+.Edit{
+    color: aliceblue;
+   
+    background-color: rgb(115, 165, 230);
+    padding: 4px 6px; /* Adjust padding for uniform look */
+    border: 1px solid rgb(115, 165, 230);
+    padding: 7px;
+    display: flex;
+    align-items: center; /* Center icon within the button */
+    justify-content: center;
+}

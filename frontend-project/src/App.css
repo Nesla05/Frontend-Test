@@ -1,0 +1,35 @@
+.Headings{
+    /* display: flex; */
+    margin-left: 70px;
+    padding-left: 50px;
+    display: flex;
+    border: 1px ridge rgb(196, 196, 196);
+    border-radius: 5px;
+     /* padding: 25px; */
+
+   
+   
+}
+.Link{
+    margin-right: 20px;
+    
+}
+.left{
+    color: black;
+}
+.right{
+    display: flex;
+    margin-left: 600px;
+}
+.down ,.file ,.attachment ,.delete ,.settings ,.dot ,.plus{
+    margin-left: 10px;
+    background-color: rgb(246, 246, 247);
+    /* padding: 4px 6px; Adjust padding for uniform look */
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    align-items: center; /* Center icon within the button */
+    justify-content: center;
+
+}

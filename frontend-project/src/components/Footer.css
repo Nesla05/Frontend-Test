@@ -1,0 +1,28 @@
+.Footer{
+    background-color: #dde7f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 70px;
+    display:flex;
+}
+.left{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.right{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  
+}
+
+.Button{
+padding-right: 30px;
+padding-left: 30px;
+color:rgb(73, 140, 227);
+border: 2px solid  rgb(95, 151, 225);
+border-radius: 10px;
+}
+
